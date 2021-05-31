@@ -1,8 +1,8 @@
-version: 0.2
+version: 0.1
 
 env:
   variables:
-    PROJECT: AspWithNUnit
+    PROJECT: IRS
     DOTNET_FRAMEWORK: 4.5
 phases:
     #install:
@@ -22,10 +22,10 @@ phases:
           
     build:
         commands:
-           - nuget restore
+           #- nuget restore
            #- apt-get update && apt-get install -y lcov
            #- genhtml
-           - msbuild AspWithNUnit.sln /p:TargetFrameworkVersion=v4.5 /p:Configuration=Release /p:DeployIisAppPath="Default Web Site" /p:PackageAsSingleFile=false /p:OutDir=C:\codebuild\artifacts\ /t:Package
+           #- msbuild IRS.sln /p:TargetFrameworkVersion=v4.5 /p:Configuration=Release /p:DeployIisAppPath="Default Web Site" /p:PackageAsSingleFile=false /p:OutDir=C:\codebuild\artifacts\ /t:Package
 artifacts:
   files:
     - '**/*'
