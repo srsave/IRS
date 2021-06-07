@@ -116,6 +116,7 @@
     <Content Include="favicon.ico" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Forms\InvestorRegistration.aspx" />
+    <Content Include="Forms\IRSUnsubscribe.aspx" />
     <Content Include="Global.asax" />
     <Content Include="fonts\glyphicons-halflings-regular.woff2" />
     <Content Include="fonts\glyphicons-halflings-regular.woff" />
@@ -194,6 +195,13 @@
     </Compile>
     <Compile Include="Forms\InvestorRegistration.aspx.designer.cs">
       <DependentUpon>InvestorRegistration.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\IRSUnsubscribe.aspx.cs">
+      <DependentUpon>IRSUnsubscribe.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Forms\IRSUnsubscribe.aspx.designer.cs">
+      <DependentUpon>IRSUnsubscribe.aspx</DependentUpon>
     </Compile>
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>

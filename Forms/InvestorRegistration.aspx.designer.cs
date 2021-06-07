@@ -168,15 +168,6 @@ namespace IRS.Forms
         protected global::System.Web.UI.WebControls.TextBox txtinvisible;
 
         /// <summary>
-        /// btnSubscribe control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Button btnSubscribe;
-
-        /// <summary>
         /// SubmitButton control.
         /// </summary>
         /// <remarks>
