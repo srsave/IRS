@@ -82,8 +82,9 @@
                                 </td>
                                 <td class="fieldtxt">
                                     <asp:DropDownList ID="ddlInvestorType" runat="server" CssClass="input">
-                                        <asp:ListItem Text="Internal" Value="Internal"></asp:ListItem>
-                                        <asp:ListItem>Extarnal</asp:ListItem>
+                                        <asp:ListItem Text="--- Select ---" Value="0" Selected="True"></asp:ListItem>
+                                        <asp:ListItem Text="Internal" Value="1"></asp:ListItem>
+                                        <asp:ListItem Text="Extarnal" Value="2"></asp:ListItem>
                                     </asp:DropDownList>
                                 </td>
                             </tr>
@@ -148,9 +149,8 @@
                                 </td>
                                 <td class="fieldtxt">
                                     <asp:DropDownList ID="ddlCountry" runat="server" CssClass="input">
-                                        <asp:ListItem Text="India">
-
-                                        </asp:ListItem>
+                                        <asp:ListItem Text="--- Select ---" Value="0" Selected="True"></asp:ListItem>
+                                        <asp:ListItem Text="India" Value="1"></asp:ListItem>
                                     </asp:DropDownList>
                                 </td>
                             </tr>
@@ -219,8 +219,7 @@
                             </tr>
                             <tr>
                                 <td class="fieldtxt" align="center" colspan="2">
-                                    <asp:Button ID="btnSubscribe" runat="server" Visible="False" Text="Subscribe" OnClick="btnSubscribe_Click"></asp:Button>
-                                    <asp:Button ID="SubmitButton" runat="server" Text="Subscribe"></asp:Button>
+                                    <asp:Button ID="SubmitButton" runat="server" Text="Subscribe" OnClick="SubmitButton_Click"></asp:Button>
                                     <asp:Button ID="btnReset" runat="server" Text="Reset"></asp:Button>
                                     <asp:Button ID="btnClose" runat="server" Text="Close"></asp:Button>
                                 </td>
